@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    font-family: "Varela Round", sans-serif;
+}
+
+.paragraph span {
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
+}
+
+@keyframes reveal {
+    from {
+        transform: opacity 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/*Pagina 1*/
+
+.main {
+    color: white;
+    margin: 10%;
+    padding: 5%;
+    font-style: initial
+}
+
+.bmain {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.social a {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+/*Pagina 2*/
+
+.C-sobre {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.foto img {
+    width: 400px;
+    height: auto;
+    box-shadow: 4px 4px 4px;
+}
+
+
+.Sobre-mim h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+}
+
+.Sobre-mim h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.Sobre-mim p {
+    margin-top: 25px;
+    font-family: "Varela Round", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .Sobre-mim p {width: 100%;}
+}
+
+/*Pagina 3*/
+
+.formação {
+    background-color: rgba(40, 34, 62, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.form-text h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15%;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+
+.form-text p {
+    margin-top: 5px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 20px;
+}
+
+.form-img img {
+    width: 430px;
+    height: auto;
+}
+
+/*Pagina 4*/
+
+.atuação {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(40, 34, 62, 255);
+}
+
+.atuação img{
+    width: 430px;
+    height: auto;
+}
+
+.atuação h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    color: white;
+    margin-top: 100px;
+}
+
+.atuação-txt h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.atuação p {
+    margin-top: 5px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+/*Pagina 5*/
+
+.projetos {
+    justify-content: space-around;
+    padding: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #28223e;
+}
+
+.projetos h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    color: white;
+    margin-top: 100px
+}
+
+.projetos-displaypt1 {
+    display: flex;
+}
+
+.projetos-displaypt2 {
+    margin-top: 2%;
+    display: flex;
+}
+
+/*Pagina 6*/
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #28223e;
+}
+
+.contato h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20%;
+    text-decoration: underline;
+    color: white;
+}
+
+.contato p {
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.contato button {
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid;
+    transition: all 1s;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 35%;
+    border-color: white;
+}
+
+.contato button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+}
+
+/*Rodapé*/
+
+.rodapé {
+    background-color: #3e223f;
+    text-align: center;
+}
+
+.rodapé h1 {
+    font-size: 30px;
+    font-family: "Varela Round", sans-serif;
+    color: #0c6cfb;
+}
+
+.rodapé-social a {  
+    font-size: 30px;
+}
+
+.rodapé h5 {
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+    color: #0c6cfb;
+    background-color: #3e223f;
+}
